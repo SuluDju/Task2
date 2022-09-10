@@ -1,0 +1,30 @@
+.social {
+  position: absolute;
+  width: 1450px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: #0e77af;
+}
+.blueline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.seti {
+  ul {
+    display: flex;
+  }
+  li {
+    margin-right: 16px;
+  }
+  padding-top: 12px;
+}
+.mail {
+  padding-top: 12px;
+  a {
+    color: white;
+  }
+}

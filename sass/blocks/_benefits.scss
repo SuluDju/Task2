@@ -1,0 +1,143 @@
+.benefits {
+  margin-top: 350px;
+  background-image: url(/img/лист3.jpg);
+
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  left: -2px;
+
+  .polosa1 {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 85px;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    width: 397px;
+    height: 96px;
+    left: 403px;
+    top: 100px;
+  }
+  .polosa2 {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 85px;
+    color: #ffffff;
+    background: #0e77af;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+
+    position: absolute;
+    width: 397px;
+    height: 96px;
+    left: 403px;
+    top: 220px;
+  }
+  .polosa3 {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 85px;
+    color: #ffffff;
+    background: #0e77af;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    position: absolute;
+    width: 397px;
+    height: 96px;
+    left: 403px;
+    top: 340px;
+  }
+}
+.physicions {
+}
+.list {
+
+  position: absolute;
+  width: 640px;
+  height: 500px;
+  left: 805px;
+
+  background: linear-gradient(180deg, #fcfcfc 0%, #f8f8f8 100%);
+
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  
+
+  color: #000000;
+  .ben {
+    padding-top: 100px;
+    padding-left: 30px;
+    width: 114px;
+    height: 37px;
+    left: 943px;
+    top: 1945px;
+
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+  
+
+    color: #000000;
+  }
+  .for {
+    padding-top: 80px;
+    padding-left: 30px;
+    width: 358px;
+    height: 28px;
+    left: 943px;
+    top: 1992px;
+
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    color: #9b9b9b;
+  }
+  .first {
+    padding-top: 75px;
+    padding-left: 30px;
+    width: 474px;
+    height: 196px;
+    left: 931px;
+    top: 2058px;
+
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    /* or 181% */
+
+    color: #000000;
+  }
+}
+.button2 {
+  width: 88px;
+  height: 23px;
+ left: 90px;//
+  top: 450px;//
+
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #ffffff;
+}

@@ -1,0 +1,74 @@
+.phon {
+  margin-top: 50px;
+  background-image: url("/img/dashboard.jpg");
+  width: 1440px;
+  height: 607px;
+  margin-bottom: 110px;
+}
+.dashboard {
+  width: 1440px;
+
+  //background-image: url(.././img/dashboard.jpg);//
+  //background: url("../blocks/dashboard.jpg");//
+}
+.text {
+  // background-image: url(./Bitmap.png);//
+  position: absolute;
+  width: 584px;
+  height: 106px;
+  left: 733px;
+  top: 450px;
+
+  .odin {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #1a1919;
+    padding-bottom: 7px;
+  }
+  .dva {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+  }
+  .tri {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #000000;
+  }
+}
+.arrow {
+  ul {
+    .leftarrow {
+      position: absolute;
+      width: 19px;
+      height: 35px;
+      left: 90px;
+      top: 610px;
+    }
+    .rightarrow {
+      position: absolute;
+      width: 19px;
+      height: 35px;
+      left: 1365px;
+      top: 610px;
+    }
+  }
+}
+button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 800px;
+  right: 500px;
+  top: 700px;
+  bottom: 100px;
+  
+}

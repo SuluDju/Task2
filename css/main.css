@@ -1,0 +1,882 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  background: #b4141b; }
+
+ul,
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    color: black; }
+  a.active {
+    color: black;
+    font-weight: 700; }
+
+.container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.nav {
+  margin-top: 60px;
+  padding-top: 55px;
+  padding-bottom: 33px; }
+
+.nav_row {
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.navigation {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000; }
+  .navigation ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px; }
+  .navigation li {
+    margin-right: 42px; }
+  .navigation a {
+    color: #000000;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: small; }
+    .navigation a:hover {
+      color: #000000; }
+    .navigation a.active {
+      color: #000000;
+      font-weight: 700; }
+  .navigation .call {
+    display: flex; }
+    .navigation .call p {
+      padding: 10%;
+      font-size: small; }
+
+.social {
+  position: absolute;
+  width: 1450px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: #0e77af; }
+
+.blueline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px; }
+
+.seti {
+  padding-top: 12px; }
+  .seti ul {
+    display: flex; }
+  .seti li {
+    margin-right: 16px; }
+
+.mail {
+  padding-top: 12px; }
+  .mail a {
+    color: white; }
+
+.phon {
+  margin-top: 50px;
+  background-image: url("/img/dashboard.jpg");
+  width: 1440px;
+  height: 607px;
+  margin-bottom: 110px; }
+
+.dashboard {
+  width: 1440px; }
+
+.text {
+  position: absolute;
+  width: 584px;
+  height: 106px;
+  left: 733px;
+  top: 450px; }
+  .text .odin {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #1a1919;
+    padding-bottom: 7px; }
+  .text .dva {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px; }
+  .text .tri {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000; }
+
+.arrow ul .leftarrow {
+  position: absolute;
+  width: 19px;
+  height: 35px;
+  left: 90px;
+  top: 610px; }
+.arrow ul .rightarrow {
+  position: absolute;
+  width: 19px;
+  height: 35px;
+  left: 1365px;
+  top: 610px; }
+
+button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 800px;
+  right: 500px;
+  top: 700px;
+  bottom: 100px; }
+
+.info {
+  padding-left: 120px; }
+
+.maninglassis {
+  margin-top: 50px; }
+
+.inolonger {
+  position: absolute;
+  width: 772px;
+  height: 30px;
+  left: 140px;
+  top: 1610px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+  color: #000000; }
+
+.us {
+  position: absolute;
+  width: 129px;
+  height: 37px;
+  left: 140px;
+  top: 950px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000; }
+
+.whyus {
+  float: right;
+  position: absolute;
+  width: 350px;
+  height: 280px;
+  left: 950px;
+  top: 1040px;
+  background: linear-gradient(180deg, #f8f8f8 0%, #f7f7f7 100%); }
+
+.whyus2 {
+  position: absolute;
+  float: right;
+  width: 350px;
+  height: 280px;
+  left: 950px;
+  top: 1282px;
+  background: linear-gradient(180deg, #f3f3f3 2.58%, #f3f3f3 100%); }
+
+.whyus3 {
+  position: absolute;
+  float: right;
+  width: 350px;
+  height: 280px;
+  left: 950px;
+  top: 1500px;
+  background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%); }
+
+.box .symbol {
+  width: 30px;
+  height: 30px;
+  left: 500px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 30px; }
+
+.glava {
+  /*width: 130px;
+    height: 28px;
+    left: 700px;
+    top: 700px;*/
+  margin-top: 50px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0e77af; }
+
+.knopka {
+  /*width: 131px;
+    height: 33px;
+    left: 1104px;
+    top: 1399px;*/
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #7d7d7d; }
+
+.benefits {
+  margin-top: 350px;
+  background-image: url(/img/лист3.jpg);
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  left: -2px; }
+  .benefits .polosa1 {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 85px;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    width: 397px;
+    height: 96px;
+    left: 403px;
+    top: 100px; }
+  .benefits .polosa2 {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 85px;
+    color: #ffffff;
+    background: #0e77af;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    position: absolute;
+    width: 397px;
+    height: 96px;
+    left: 403px;
+    top: 220px; }
+  .benefits .polosa3 {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 85px;
+    color: #ffffff;
+    background: #0e77af;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    position: absolute;
+    width: 397px;
+    height: 96px;
+    left: 403px;
+    top: 340px; }
+
+.list {
+  position: absolute;
+  width: 640px;
+  height: 500px;
+  left: 805px;
+  background: linear-gradient(180deg, #fcfcfc 0%, #f8f8f8 100%);
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000; }
+  .list .ben {
+    padding-top: 100px;
+    padding-left: 30px;
+    width: 114px;
+    height: 37px;
+    left: 943px;
+    top: 1945px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000; }
+  .list .for {
+    padding-top: 80px;
+    padding-left: 30px;
+    width: 358px;
+    height: 28px;
+    left: 943px;
+    top: 1992px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #9b9b9b; }
+  .list .first {
+    padding-top: 75px;
+    padding-left: 30px;
+    width: 474px;
+    height: 196px;
+    left: 931px;
+    top: 2058px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    /* or 181% */
+    color: #000000; }
+
+.button2 {
+  width: 88px;
+  height: 23px;
+  left: 90px;
+  top: 450px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff; }
+
+.objects {
+  margin-top: 1000px; }
+
+.ourservice .our {
+  position: absolute;
+  height: 37px;
+  left: 150px;
+  top: 2502px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000; }
+.ourservice .staff {
+  position: absolute;
+  width: 375px;
+  height: 28px;
+  left: 150px;
+  top: 2548px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #9b9b9b; }
+.ourservice .coding {
+  position: absolute;
+  width: 167px;
+  height: 28px;
+  left: 150px;
+  top: 2643px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0e77af; }
+.ourservice .defic {
+  position: absolute;
+  width: 18px;
+  height: 2.77px;
+  left: 700px;
+  top: 2657.62px;
+  background: #000000; }
+.ourservice .cod {
+  position: absolute;
+  width: 280px;
+  height: 161px;
+  left: 150px;
+  top: 2729px; }
+.ourservice .we {
+  position: absolute;
+  width: 380px;
+  height: 100px;
+  left: 400px;
+  top: 2741px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #000000; }
+.ourservice .read {
+  position: absolute;
+  width: 131px;
+  height: 33px;
+  left: 447px;
+  top: 2838px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 29px;
+  /* or 242% */
+  color: #7d7d7d; }
+.ourservice .cherta {
+  position: absolute;
+  width: 592px;
+  height: 1px;
+  left: 150px;
+  top: 2696px;
+  border: 1px solid #979797; }
+.ourservice .cred {
+  position: absolute;
+  width: 144px;
+  height: 28px;
+  left: 150px;
+  top: 2931px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0E77AF; }
+.ourservice .plu {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 700px;
+  top: 2936px; }
+.ourservice .cherta2 {
+  position: absolute;
+  width: 592px;
+  height: 1px;
+  left: 150px;
+  top: 2984px;
+  border: 1px solid #979797; }
+.ourservice .maan {
+  position: absolute;
+  width: 285px;
+  height: 28px;
+  left: 150px;
+  top: 3016px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  color: #0E77AF; }
+.ourservice .pluss {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 700px;
+  top: 3022px; }
+.ourservice .cherta3 {
+  position: absolute;
+  width: 592px;
+  height: 1px;
+  left: 150px;
+  top: 3073px;
+  border: 1px solid #979797; }
+
+.security .sec {
+  position: absolute;
+  width: 113px;
+  height: 37px;
+  left: 1000px;
+  top: 2502px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #000000; }
+.security .poli {
+  position: absolute;
+  width: 183px;
+  height: 28px;
+  left: 1000px;
+  top: 2548px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #9b9b9b; }
+.security .securi {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  left: 1000px;
+  top: 2650px; }
+.security .work {
+  position: absolute;
+  width: 474px;
+  height: 132px;
+  left: 943px;
+  top: 3004px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+  color: #000000; }
+.security .but {
+  position: absolute;
+  width: 104px;
+  height: 35px;
+  left: 943px;
+  top: 3136px;
+  background: #B4141B; }
+
+.test {
+  position: absolute;
+  width: 1440px;
+  height: 651px;
+  left: 0px;
+  top: 3332px;
+  background: #0e77af; }
+  .test .testim {
+    padding-left: 200px;
+    padding-top: 140px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #ffffff; }
+  .test .what {
+    padding-left: 200px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff; }
+  .test .zifra {
+    padding-left: 200px;
+    padding-top: 140px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+    color: #ffffff; }
+  .test .pass {
+    padding-left: 200px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #ffffff; }
+  .test .next {
+    padding-left: 200px;
+    padding-top: 50px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height */
+    color: #ffffff; }
+  .test .jacheika {
+    width: 734px;
+    height: 356px;
+    margin-left: 620px;
+    margin-top: -370px;
+    background: #FFFFFF; }
+  .test .inc {
+    /*width: 170px;
+    height: 23px;
+    left: 742px;
+    top: 3555px;*/
+    padding-left: 60px;
+    padding-top: 90px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000; }
+  .test .when {
+    padding-top: 10px;
+    padding-left: 58px;
+    padding-right: 10px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 181% */
+    color: #000000; }
+  .test .sam {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    padding-left: 58px;
+    padding-top: 45px; }
+
+.opisanie .for {
+  position: absolute;
+  width: 210px;
+  height: 37px;
+  left: 150px;
+  top: 4150px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000; }
+.opisanie .our {
+  position: absolute;
+  width: 131px;
+  height: 28px;
+  left: 150px;
+  top: 4200px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  color: #9b9b9b; }
+.opisanie .first {
+  position: absolute;
+  width: 384px;
+  height: 106px;
+  left: 150px;
+  top: 4270px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 31px;
+  /* or 181% */
+  color: #595959; }
+.opisanie .more {
+  position: absolute;
+  width: 131px;
+  height: 33px;
+  left: 150px;
+  top: 4366px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 29px;
+  color: #7d7d7d; }
+.opisanie .hospital {
+  position: absolute;
+  width: 576px;
+  height: 37px;
+  left: 150px;
+  top: 4425px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000; }
+.opisanie .our2 {
+  position: absolute;
+  width: 131px;
+  height: 28px;
+  left: 150px;
+  top: 4471px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  color: #9b9b9b; }
+.opisanie .increase {
+  position: absolute;
+  width: 570px;
+  height: 106px;
+  left: 150px;
+  top: 4523px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+  color: #595959; }
+.opisanie .more2 {
+  position: absolute;
+  width: 131px;
+  height: 33px;
+  left: 150px;
+  top: 4633px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 29px;
+  /* or 242% */
+  color: #7d7d7d; }
+
+.oprosnik {
+  position: absolute;
+  width: 450px;
+  height: 587px;
+  left: 843px;
+  top: 4108px;
+  background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%); }
+  .oprosnik .appointment {
+    padding-left: 30px;
+    padding-top: 40px;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    color: #000000; }
+  .oprosnik .firstname {
+    width: 388px;
+    height: 53px;
+    left: 991px;
+    top: 4245px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #e2e2e2; }
+  .oprosnik .lastname {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 388px;
+    height: 53px;
+    left: 991px;
+    top: 4335px;
+    background: #ffffff;
+    border: 2px solid #e2e2e2; }
+  .oprosnik .mail {
+    box-sizing: border-box;
+    width: 388px;
+    height: 53px;
+    left: 991px;
+    top: 4425px;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #e2e2e2; }
+  .oprosnik .company {
+    box-sizing: border-box;
+    width: 388px;
+    height: 53px;
+    left: 991px;
+    top: 4515px;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #e2e2e2; }
+  .oprosnik .submit {
+    padding: 20px;
+    width: 110px;
+    height: 35px;
+    background: #b4141b;
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    color: #ffffff; }
+
+/*form {
+  box-sizing: border-box;
+margin: 15px;
+}*/
+input {
+  margin: 27px; }
+  input .submit {
+    left: 40px; }
+
+.end {
+  position: absolute;
+  width: 1440px;
+  height: 553px;
+  top: 4923px;
+  background: #4A4A4A;
+  padding-left: 20px;
+  padding-right: 150px;
+  padding-top: 170px;
+  background: #7b7b7b; }
+  .end h1 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF; }
+  .end p {
+    margin-top: 20px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF; }
+  .end ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px; }
+  .end .stay {
+    margin-top: -50px; }
+
+.svyz {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.medpro {
+  width: 300px; }
+  .medpro h1 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF; }
+  .medpro p {
+    margin-top: 20px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=main.css.map */
